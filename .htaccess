@@ -1,0 +1,6 @@
+# this should disable any special handling of all file types,
+# and simply offer them for download.
+<FilesMatch ".*">
+SetHandler None
+SetHandler default-handler
+</FilesMatch>

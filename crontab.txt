@@ -1,0 +1,2 @@
+# run every 24 hours, delete any files older than 14 days.
+0 0 * * * find /path/to/your/databin/upload/* -type f -mtime +14 -exec rm {} \;
